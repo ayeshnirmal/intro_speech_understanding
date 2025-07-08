@@ -16,6 +16,9 @@ def center_of_gravity(x):
     @result:
     c (scalar): x's center of gravity
     '''
+    n = np.arange(0,len(x))
+    c = np.dot(n.x)/np.sum(x)
+    return c
     c = 0  # change this line
     return c
 
